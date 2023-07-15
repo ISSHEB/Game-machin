@@ -6,6 +6,7 @@
 }
 body{
     background-image: url(imag/photo_2023-07-12_23-34-32.jpg);
+    
 }
 
 header{
@@ -19,7 +20,6 @@ header{
     padding: 20PX;
     position: absolute;
     display: flex;
-    width: 1200px;
     margin-left: 50px;
 }
 .page_layout{
@@ -44,7 +44,7 @@ header{
     font-weight: 900;
     transition: transform 500ms ease;
     position: fixed;
-    margin:550px;
+    margin: 38%;
     margin-left: 860px;
 }
 .page_button:hover{
@@ -179,4 +179,18 @@ header{
 }
 .thir_page_button_second:hover{
     transform: scale(1.05);
+}
+.fourth_page{
+    background-image: url(/Casino/imag/fourth.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.fourth_body{
+    height: 416px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 62px;
 }
