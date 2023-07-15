@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url(imag/photo_2023-07-12_23-34-32.jpg);
+}
+
+header{
+    background: linear-gradient(148deg, rgba(255, 168, 0, 1) 0%, rgba(235, 255, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 900;
+}
+.page{
+    padding: 20PX;
+    position: absolute;
+    display: flex;
+    width: 1200px;
+    margin-left: 50px;
+}
+.page_layout{
+    width: 1000px;
+}
+.page_text{
+    margin-top: 10PX;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 1px solid black;
+}
+.page_button{
+    background: linear-gradient(0deg, rgba(0, 84, 132, 1) 0%, rgba(189, 0, 255, 1) 98%, rgba(112, 255, 0, 0.9136904761904762) 100%);
+    border: 2px solid #00A3FF;
+    box-shadow: -1px 18px 8px -9px rgba(36, 255, 0, 0.36), 1px 1px 45px -16px rgba(255, 255, 255, 0.86) inset;
+    color: rgba(0, 163, 255, 1);
+    width: 250px;
+    height: 90px;
+    font-size: 32px;
+    border-radius: 18px; 
+    font-weight: 900;
+    transition: transform 500ms ease;
+    position: fixed;
+    margin:550px;
+    margin-left: 860px;
+}
+.page_button:hover{
+    transform: scale(1.05);
+}
+/* Second page */
+.page_second{
+    display: block;
+    margin: 0;
+}
+.second_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(109, 51, 181, 1) 0%, rgba(145, 59, 255, 1) 51%, rgba(108, 46, 184, 1) 100%);
+    height: 80px;
+
+}
+.second_header_block {
+    display: flex;
+    padding: 2px;
+    width: 400px;
+    height: 50px;
+    background: #370063;
+    border-radius: 40px;
+    box-shadow: -2px -2px 0px 0px rgba(254, 183, 0, 0.6) inset;
+}
+.second_header_block_textFirst{
+    margin-left: 90px;
+    margin-top: 8px;
+    font-size: 28px;
+    background: linear-gradient(0deg, rgba(0, 84, 132, 1) 0%, rgba(189, 0, 255, 1) 98%, rgba(112, 255, 0, 0.9136904761904762) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.second_header_block_textSecond{
+    margin-left: 90px;
+    margin-top: 8px;
+    font-size: 28px;
+    background: linear-gradient(148deg, rgba(255, 168, 0, 1) 0%, rgba(235, 255, 0, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.second_header_block_icon{
+    margin-left: 10px;
+}
+.secIcon{
+    margin-top: -13px;
+    margin-left: -11px;
+}
+.second_body{
+    display: flex;
+    align-items: center;
+    width: 1460px;
+    height: 640px;
+}
+.body_icon{
+    width: 256px;
+    height: 256px;
+    border-radius: 20px;;
+}
+.Icono{
+    border-right: 3px solid #FEB700;
+}
+.second_body_in{
+    margin-left: 20px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: mandatory;
+}
+/* third page */
+
+.third_page{
+    background: radial-gradient(circle, rgba(78, 14, 82, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    
+}
+.third_body{
+    height:580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third_body_in{
+    border: #FFE600 1px solid;
+    width: 412px;
+    height: 240px;
+    border-radius: 20px;
+}
+.headerButtom{
+    width: 200px;
+}
+
+.headerButtom_text{
+    margin: 0;
+    margin-left: 33px;
+    padding: 9px;
+}
+.button_header_block{
+    display: flex;
+    margin-left: 10px;
+}
+.button_header_icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.thir_page_button{
+    background: linear-gradient(0deg, rgba(0, 84, 132, 1) 0%, rgba(189, 0, 255, 1) 98%, rgba(112, 255, 0, 0.9136904761904762) 100%);
+    color: rgba(0, 163, 255, 1);
+    width: 150px;
+    height: 59px;
+    font-size: 32px;
+    border-radius: 11px;
+    border: 2px solid #00A3FF;
+    transition: transform 500ms ease;
+}
+.thir_page_button:hover{
+    transform: scale(1.05);
+}
+.thir_page_button_second{
+    background: radial-gradient(circle, rgba(112, 255, 0, 1) 0%, rgba(0, 132, 5, 1) 100%);
+    width: 150px;
+    height: 59px;
+    font-size: 32px;
+    border-radius: 11px;
+    color: #ffffffb7;
+    transition: transform 500ms ease;
+}
+.thir_page_button_second:hover{
+    transform: scale(1.05);
+}
